@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
+body {
+	background: #f0f0f0;
+	font-family: 'Oswald', sans-serif;
+	display: inline-grid;
+	margin: 0;
+	color: #2E2E2E;
+}
+
+/* -------------------
+	Introdução
+---------------------- */
+
+.intro {
+	display:table-cell;
+	padding: 30px;
+	font-size: 36px;
+	background: #c0c0c0;
+}
+
+.name {
+	margin-top: 30px;
+	color: #fff;
+	font-size: 36px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.felipe {
+	color: #FF8000;
+	font-weight: bold;
+	line-height: 50px;
+	font-size: 52px;
+}
+
+.stretch {
+	font-size: 16px;
+	text-align: center;
+	margin: 30px 0;
+}
+
+/* -------------------
+	Foto do perfil
+---------------------- */
+
+.picture {
+	display: table-cell;
+	background: url('profile.png') no-repeat center;
+	background-size: cover;
+	width: 30%;
+}
+
+/* -------------------
+	Sobre mim
+---------------------- */
+
+.about {
+	display: block;
+	background: #ccc;
+	padding: 50px;
+	text-align: center;
+}
+
+.about > ul {
+	margin: 0 auto;
+}
+
+.about > ul > li {
+	width: 33%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.about > ul > li > img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	-webkit-border-radius: 40%;
+	-moz-border-radius: 40%;
+	display: block;
+	margin: 10px auto;
+	border: 3px solid white;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.25);
+	transition: all .3s ease;
+}
+
+.about > ul > li > b {
+	font-size: 24px;
+	letter-spacing: 4px;
+}
+
+.about > ul > li > img:hover {
+	transform: translateY(-15px) scale(1.2);
+	box-shadow: 0px 6px 5px rgba(0,0,0,0.2);
+}
+
+
+img {
+	width: 50px;
+	height: 50px;
+}
